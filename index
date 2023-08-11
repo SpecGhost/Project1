@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <html>
+<body style="background-color:rgb(209, 209, 205);">
+</body>
+</html>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+
+    
+<html>
+<head>
+    <Title>Biography</Title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><a href="index.html">Chinazor Agummadu</a></h1>
+            <div class="nav">
+                  <ul>
+                    <li><a href="bio.html">Bio</a></li>
+                    <li><a href="Project 1-1.html">Contact Info</a></li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+
+
+            <div class="features">
+                <div class="container">
+                    <div class="feat fl-left">
+                        <h2>Goals</h2>
+                        <p>I wish to become a fulltime progrmamer in the future.</p>
+                    </div>
+                    <div class="feat fl-left">
+                        <h2>Hobbies</h2>
+                        <p>I like to play video games, Yu-Gi-Oh! Master Duel, Destiny 2, Tekken are few to the name. Other than that I like movies and napping.</p>
+                    </div>
+                </div>
+            </div>
