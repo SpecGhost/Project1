@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #3560a0;
+  }
+
+.header{
+    top: 20;
+    width: 100%;
+    background-color: #e1e2ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 20px 0 20px;
+}
+
+.container .box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .gallery{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+ 
+h1, h2, h3, h4, p, a {
+    color: #1c1f22;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    margin: 25px 10px 0 5px;
+}
+.nav {
+    margin: 25px 10px 0 5px;
+} 
+.nav li{
+    padding: 14px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 8;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+    display: block;
+}
+
+a {
+    display: inline-block;
+}
+
+/* 
+.nav a:link {
+    text-decoration: none;
+}
+.nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #084B83;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+.nav a:active {
+    text-decoration: underline;
+    text-decoration-color: #084B83;
+}
+
+/* Selects spacing and alignment of content/text in the contact page */
+  .contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin: 0px 20px 0 25px;
+    padding-bottom: 40px;
+  }
+
+  .bio{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin: 0px 20px 0 25px;
+    padding-bottom: 40px;
+  }
+
+.bio{
+    min-height:157px;
+    max-height: 258px;;
+    background-color:#F2F2F2
+}
+
+.bio.image {
+    float: left;
+    width: 5%;
+}
+.bio.info {
+    width: 0%;
+    overflow:hidden
+}
